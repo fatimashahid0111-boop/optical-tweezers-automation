@@ -23,5 +23,6 @@ To run the automated calibration routine, execute the main script from the termi
 ```bash
 python src/main_calibration.py
 
-<img width="900" height="500" alt="Figure_forcecalibration001" src="https://github.com/user-attachments/assets/c5649334-9e14-4aa8-b5e7-f019a128f141" />
+
+<img width="900" height="500" alt="Figure_forcecalibration001" src="https://github.com/user-attachments/assets/baf23a70-8ee8-463f-bd4e-5a1912c9c2df" />
 
