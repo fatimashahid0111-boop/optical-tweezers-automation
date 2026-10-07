@@ -24,6 +24,11 @@ The project is divided into two primary components:
 
 <img width="900" height="500" alt="gamma001pic" src="https://github.com/user-attachments/assets/abcdfc7a-b5f8-4610-994d-c6a74b151312" />
 
+## Usage
+Ensure the Thorlabs stage is connected, then execute the movement script:
+```bash
+python movestage.py
+
 
 
 
