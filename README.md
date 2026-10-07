@@ -25,12 +25,14 @@ The project is divided into two primary components:
 **Force Calibration S-Curve**
 This graph demonstrates the raw positional response of the trapped particle as the piezo stage scans it across the laser's focal point. The characteristic "S-curve" plots the Quadrant Photodiode (QPD) difference signal against the piezo output voltage. The steep central region crossing the zero-voltage difference mark represents the center of the optical trap, confirming the specific spatial region where the trapping force behaves linearly, akin to a harmonic oscillator (Hooke's Law).
 
-<img width="900" height="500" alt="znogammafact01" src="https://github.com/user-attachments/assets/483ce829-fbc1-4ba3-823a-60300f3b2295" />
+<img width="900" height="500" alt="gamma001pic" src="https://github.com/user-attachments/assets/abcdfc7a-b5f8-4610-994d-c6a74b151312" />
 
 **Silica Beads Gamma Factor Extraction**
 This plot isolates the central linear regime of the S-curve (highlighted by the blue data points) to compute the detector's spatial calibration factor, or gamma. By applying a linear line of best fit (the red line), the slope determines the sensitivity of the QPD voltage to the physical displacement of the trapped particle. This extraction specifically for a Silica Microbead shows a sensitivity of 0.241 V/µm.
 
-<img width="900" height="500" alt="gamma001pic" src="https://github.com/user-attachments/assets/abcdfc7a-b5f8-4610-994d-c6a74b151312" />
+
+<img width="900" height="500" alt="znogammafact01" src="https://github.com/user-attachments/assets/483ce829-fbc1-4ba3-823a-60300f3b2295" />
+
 
 **Steeper Gamma Factor Extraction**
 Similar to the silica microbeads, this plot demonstrates a distinct extraction with a much steeper slope, yielding a higher sensitivity of 5.188 V/µm.
