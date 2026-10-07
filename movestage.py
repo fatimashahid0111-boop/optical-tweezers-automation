@@ -21,7 +21,6 @@ STEPS = 50  # Number of data points in the scan
 DELAY_BETWEEN_STEPS = 0.2  # Seconds to wait for the piezo to physically settle 
 def scan_x_axis(serial_number): 
 print("=== Optical Tweezers X-Axis Scan ===") 
-34 
 try: 
 DeviceManagerCLI.BuildDeviceList() 
 if not DeviceManagerCLI.IsDeviceConnected(serial_number): 
@@ -46,7 +45,6 @@ print(f"Starting scan: 0.0 V to {MAX_VOLTAGE} V in {STEPS} steps...")
 for voltage in voltage_sweep: 
 print(f"Moving to: {voltage:.2f} V") 
 kpz.SetOutputVoltage(Decimal(float(voltage))) 
-35 
 # Pause to allow the physical stage to settle before the next movement 
 time.sleep(DELAY_BETWEEN_STEPS) 
 # --- 5. SHUTDOWN --- 
