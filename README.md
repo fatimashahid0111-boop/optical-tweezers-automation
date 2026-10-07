@@ -20,6 +20,11 @@ The project is divided into two primary components:
 
 <img width="900" height="500" alt="Figure_forcecalibration001" src="https://github.com/user-attachments/assets/deebf9b5-1222-413e-9fe7-f9971d6e63ca" />
 
+<img width="900" height="500" alt="znogammafact01" src="https://github.com/user-attachments/assets/483ce829-fbc1-4ba3-823a-60300f3b2295" />
+
+<img width="900" height="500" alt="gamma001pic" src="https://github.com/user-attachments/assets/abcdfc7a-b5f8-4610-994d-c6a74b151312" />
+
+
 ## Usage 
 To run the automated calibration routine, execute the main script from the terminal:
 ```bash
