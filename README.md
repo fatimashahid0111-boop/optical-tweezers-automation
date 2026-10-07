@@ -19,8 +19,6 @@ The project is divided into two primary components:
 
 
 <img width="900" height="500" alt="Figure_forcecalibration001" src="https://github.com/user-attachments/assets/deebf9b5-1222-413e-9fe7-f9971d6e63ca" />
-**Force Calibration S-Curve**
-This graph demonstrates the raw positional response of the trapped particle as the piezo stage scans it across the laser's focal point. The characteristic "S-curve" plots the Quadrant Photodiode (QPD) difference signal against the piezo output voltage. The steep central region crossing the zero-voltage difference mark represents the center of the optical trap, confirming the specific spatial region where the trapping force behaves linearly, akin to a harmonic oscillator (Hooke's Law).
 
 <img width="700" height="300" alt="znogammafact01" src="https://github.com/user-attachments/assets/483ce829-fbc1-4ba3-823a-60300f3b2295" /> <img width="700" height="300" alt="gamma001pic" src="https://github.com/user-attachments/assets/abcdfc7a-b5f8-4610-994d-c6a74b151312" />
 **Gamma Factor Extractions**
