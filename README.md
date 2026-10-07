@@ -13,10 +13,10 @@ The project is divided into two primary components:
 * Required libraries: `numpy`, `scipy`, `matplotlib`
 * *Note: Thorlabs Kinesis DLLs must be installed locally and are not included in this repository.*
 
-## Directory Structure
-* `/src` - Python wrappers and automation scripts for the Thorlabs stages.
-* `/analysis` - Calibration scripts for analyzing BFPI voltage signals and extracting trap stiffness.
-* `/data_samples` - A small dataset of sample silica bead position data to test the calibration algorithms.
+## Files
+*  `/movestage.py` - The code I used to move the 3-axis piezo stage.
+*  `/force_calibration.py` - The code I used to scan the sample through the laser's focal point and get piezo voltages to eventually find gamma factor.
+
 
 <img width="900" height="500" alt="Figure_forcecalibration001" src="https://github.com/user-attachments/assets/deebf9b5-1222-413e-9fe7-f9971d6e63ca" />
 
@@ -25,10 +25,6 @@ The project is divided into two primary components:
 <img width="900" height="500" alt="gamma001pic" src="https://github.com/user-attachments/assets/abcdfc7a-b5f8-4610-994d-c6a74b151312" />
 
 
-## Usage 
-To run the automated calibration routine, execute the main script from the terminal:
-```bash
-python src/main_calibration.py
 
 
 
