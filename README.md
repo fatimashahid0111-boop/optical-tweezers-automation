@@ -18,11 +18,13 @@ The project is divided into two primary components:
 * `/analysis` - Calibration scripts for analyzing BFPI voltage signals and extracting trap stiffness.
 * `/data_samples` - A small dataset of sample silica bead position data to test the calibration algorithms.
 
+<img width="900" height="500" alt="Figure_forcecalibration001" src="https://github.com/user-attachments/assets/deebf9b5-1222-413e-9fe7-f9971d6e63ca" />
+
 ## Usage 
 To run the automated calibration routine, execute the main script from the terminal:
 ```bash
 python src/main_calibration.py
 
 
-<img width="900" height="500" alt="Figure_forcecalibration001" src="https://github.com/user-attachments/assets/baf23a70-8ee8-463f-bd4e-5a1912c9c2df" />
+
 
