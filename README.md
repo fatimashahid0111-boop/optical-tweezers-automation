@@ -23,12 +23,6 @@ The project is divided into two primary components:
 <img width="900" height="500" alt="znogammafact01" src="https://github.com/user-attachments/assets/483ce829-fbc1-4ba3-823a-60300f3b2295" /> 
 <img width="900" height="500" alt="gamma001pic" src="https://github.com/user-attachments/assets/abcdfc7a-b5f8-4610-994d-c6a74b151312" />
 
-
-## Usage
-Ensure the Thorlabs stage is connected, then execute the movement script:
-```bash
-python movestage.py
-
 ### Calibration Results
 
 <table>
@@ -44,6 +38,13 @@ python movestage.py
     </td>
   </tr>
 </table>
+
+
+## Usage
+Ensure the Thorlabs stage is connected, then execute the movement script:
+```bash
+python movestage.py
+
 
 
 
