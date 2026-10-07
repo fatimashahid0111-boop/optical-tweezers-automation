@@ -15,7 +15,7 @@ sys.exit()
 from Thorlabs.MotionControl.DeviceManagerCLI import DeviceManagerCLI 
 from Thorlabs.MotionControl.KCube.PiezoCLI import KCubePiezo 
 # --- 2. CONFIGURATION --- 
-X_AXIS_SERIAL = "29253329" 
+X_AXIS_SERIAL = "29xxxxxx" 
 MAX_VOLTAGE = 75.0 
 STEPS = 50  # Number of data points in the scan 
 DELAY_BETWEEN_STEPS = 0.2  # Seconds to wait for the piezo to physically settle 
