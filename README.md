@@ -37,11 +37,9 @@ This plot isolates the central linear regime of the S-curve (highlighted by the 
 **Steeper Gamma Factor Extraction**
 Similar to the silica microbeads, this plot demonstrates a distinct extraction with a much steeper slope, yielding a higher sensitivity of 5.188 V/µm.
 
-## Usage
-Ensure the Thorlabs stage is connected, then execute the movement script:
-```bash
-python movestage.py
+## Academic Context
 
+This toolkit was developed as part of a final year undergraduate thesis project for the BS Physics program at the Pakistan Institute of Engineering and Applied Sciences (PIEAS). The research focused on the mechanical assembly and computational automation of the optical tweezers system, conducted under the supervision of Dr. Afshan Irshad.
 
 
 
