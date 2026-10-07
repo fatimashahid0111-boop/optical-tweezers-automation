@@ -22,3 +22,6 @@ The project is divided into two primary components:
 To run the automated calibration routine, execute the main script from the terminal:
 ```bash
 python src/main_calibration.py
+
+<img width="900" height="500" alt="Figure_forcecalibration001" src="https://github.com/user-attachments/assets/c5649334-9e14-4aa8-b5e7-f019a128f141" />
+
